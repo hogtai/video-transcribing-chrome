@@ -1,0 +1,13 @@
+{
+    "name": "My Speech Recognition Extension",
+    "version": "1.0",
+    "description": "A Chrome extension that can recognize speech in videos and transcribe it into text.",
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab",
+      "audioCapture"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
